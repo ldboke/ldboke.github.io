@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: Hexo # 你的网站的名称
 subtitle: ''
-description: ''
-keywords:
-author: John Doe
-language: en
+description: ''  # 网站的简介。简介和关键词的作用是，在百度等搜索引擎获取时，会根据这个收录
+keywords:       # 网站的关键词
+author: John Doe # 作者名称
+language: zh-CN
 timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://ldboke.github.io/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -97,9 +97,11 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: amazing
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  repository: git@github.com:ldboke/ldboke.github.io.git
+  branch: main
