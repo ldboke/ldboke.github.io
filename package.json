@@ -34,6 +34,11 @@
     "inferno-create-element": "^7.3.3",
     "js-yaml": "^3.13.1",
     "moment": "^2.22.2",
-    "semver": ">=5.0.0"
+    "semver": ">=5.0.0",
+    "deepmerge": "^4.2.2",
+    "hexo-abbrlink": "^2.0.5",
+    "hexo-blog-encrypt": "^3.0.3",
+    "hexo-util": "^1.8.0",
+    "save": "^2.4.0"
   }
 }

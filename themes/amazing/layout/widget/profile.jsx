@@ -53,7 +53,7 @@ class Profile extends Component {
                             {author ? <p class="title is-size-4 is-block" style={{'line-height': 'inherit'}}>{author}</p> : null}
                             {authorTitle ? <p class="is-size-6 is-block">{authorTitle}</p> : null}
                             {location ? <p class="is-size-6 is-flex justify-content-center">
-                                <i class="fas fa-map-marker-alt mr-1"></i>
+                                <i class="fas fa-map-marker-alt mr-1" style={{'line-height': 'inherit'}}></i>
                                 <span>{location}</span>
                             </p> : null}
                         </div>
