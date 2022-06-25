@@ -3,7 +3,7 @@ version: 4.0.0
 # Icarus theme variant, can be "default" or "cyberpunk"
 variant: default
 # Path or URL to the website's logo
-logo: https://cdn.jsdelivr.net/gh/removeif/removeif-demo@latest/img/logo.png #/img/logo.svg
+logo: https://s1.328888.xyz/2022/05/26/lBHjZ.png #/img/logo.svg
 # Page metadata configurations
 head:
     # URL or path to the website's icon
@@ -13,7 +13,7 @@ head:
     open_graph:
         # Page title (og:title) (optional)
         # You should leave this blank for most of the time
-        title: 辣椒の酱
+        title: 林大博客
         # Page type (og:type) (optional)
         # You should leave this blank for most of the time
         type: blog
@@ -25,7 +25,7 @@ head:
         image: https://cdn.jsdelivr.net/gh/removeif/removeif-demo@latest/img/avatar.png
         # Site name (og:site_name) (optional)
         # You should leave this blank for most of the time
-        site_name: 辣椒の酱
+        site_name: 林大博客
         # Page author (article:author) (optional)
         # You should leave this blank for most of the time
         author: removeif
@@ -85,13 +85,6 @@ navbar:
         音乐: /music
         影音: /media
     # Links to be shown on the right of the navigation bar
-    links:
-        Join Gitter:
-            icon: fab fa-gitter
-            url: 'https://gitter.im/hexo-theme-amazing/community'
-        Download on GitHub:
-            icon: fab fa-github
-            url: 'https://github.com/removeif/hexo-theme-amazing'
 # Page footer configurations
 footer:
     # Links to be shown on the right of the footer section
@@ -153,6 +146,15 @@ search:
 #    distraction_free_mode: false
 #    has_hot_recommend: true # 是否有热门推荐
 #    has_latest_comment: true #是否有最新评论
+
+comment:
+    type: utteranc
+    repo: ldboke/ldboke-talk # (required) GitHub userName & repository name
+    issue_term: pathname
+    issue_number:
+    label:
+    theme: github-light
+
 # Donate plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Donation/
 donates:
@@ -161,12 +163,12 @@ donates:
         # Donation entry name
         type: alipay
         # Qrcode image URL
-        qrcode: 'https://raw.githubusercontent.com/removeif/blog_image/master/img/2019/20190802135456.png'
+        qrcode: 'https://link.jscdn.cn/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvcyFBdWFoSTVGcF96ZFRhVFNvRmpPbTBoc3dfMms.jpg'
     -
         # Donation entry name
         type: wechat
         # Qrcode image URL
-        qrcode: 'https://raw.githubusercontent.com/removeif/blog_image/master/img/2019/20190802135550.png'
+        qrcode: 'https://link.jscdn.cn/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvcyFBdWFoSTVGcF96ZFRhcEdtVnM2X1pIcTBRWjQ.jpg'
     # "Buy me a coffee" donate button configurations
 #    -
 #        type: buymeacoffee
@@ -228,7 +230,7 @@ widgets:
         # Author's current location
         location: 中国大陆
         # URL or path to the avatar image
-        avatar: http://q2.qlogo.cn/headimg_dl?dst_uin=242807823&spec=100&t=1653566919339
+        avatar: https://q1.qlogo.cn/g?b=qq&nk=242807823&src_uin=www.jlwz.cn&s=0
         # Whether show the rounded avatar image
         avatar_rounded: true
         # Email address for the Gravatar
@@ -372,8 +374,8 @@ providers:
 
 
 footer_copyright_dsec: © 版权说明：[本网站所有内容均收集于互联网或自己创作,<br />&nbsp;&nbsp;&nbsp;&nbsp;方便于网友与自己学习交流，如有侵权，请<a href="/message" target="_blank">留言</a>，立即处理]<br /> #footer 版权说明 可自由配置
-website_start_time: 2018/11/11 00:00:00 #网站运行开始时间,不填不显示
-footer_registered_no: 川ICP备88888888号-8（测试） #备案号
+website_start_time: 2022/5/20 00:00:00 #网站运行开始时间,不填不显示
+footer_registered_no:  #备案号
 side_music_netease_id: 2364053447 #侧边栏网易云歌单id
 busuanzi_only_count: false #当上面plugins中busuanzi: true时，此配置busuanzi_only_count为true时，网站不显示不蒜子统计数据，但是会每次统计。false时显示统计数据。
 has_live_2D_switch: true #live2D开关 true-开 false-关

@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo # 你的网站的名称
+title: '林大博客' # 你的网站的名称
 subtitle: ''
-description: ''  # 网站的简介。简介和关键词的作用是，在百度等搜索引擎获取时，会根据这个收录
-keywords:       # 网站的关键词
-author: John Doe # 作者名称
+description: '林大的一个随笔博客，偶发发发自己想发的东西，给自己备个份'  # 网站的简介。简介和关键词的作用是，在百度等搜索引擎获取时，会根据这个收录
+keywords: 林大;林大博客;软件博客;随笔;教程；      # 网站的关键词
+author: 林大博客 # 作者名称
 language: zh-CN
 timezone: ''
 
