@@ -1,7 +1,7 @@
 ---
 title: 
 date: 2019-07-30 09:33:48
-thumbnail: https://cdn.jsdelivr.net/gh/removeif/blog_image/img/2020/20201030170254.png
+thumbnail: https://img1.imgtp.com/2022/06/25/7ur7dBsg.jpg
 ---
 <div class="music-container">
     <div class="music-player">
@@ -34,7 +34,7 @@ thumbnail: https://cdn.jsdelivr.net/gh/removeif/blog_image/img/2020/202010301702
             <i class="fa fa-video-camera"></i>&nbsp;&nbsp;看看视频
     </div>
     <br/>
-    <p class="hits">->点击以下条目开始播放视频,向下滑动查看更多<-</p>
+    <p class="hits">点击以下条目开始播放视频,向下滑动查看更多</p>
     <div id="video-list"></div>
     <br/>
     <div id="dplayer"><br/></div>

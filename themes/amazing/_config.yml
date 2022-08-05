@@ -244,13 +244,13 @@ widgets:
                 url: 'https://github.com/ldboke'
             Weibo:
                 icon: fab fa-weibo
-                url: 'https://weibo.com/removeif'
+                url: 'https://weibo.com/u/7591568286'
             Email:
                 icon: fa fa-envelope
-                url: 'mailto:removeif@163.com'
+                url: 'mailto:242807823@qq.com'
             Next:
                 icon: fab fa-dribbble
-                url: 'https://removeif.github.io/remove.io'
+                url: 'https://hexo.io/zh-cn/index.html'
             RSS:
                 icon: fas fa-rss
                 url: /atom.xml
